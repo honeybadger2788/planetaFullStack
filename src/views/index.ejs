@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head')%>
+<body onload="typeWriter()">
+  <%- include('./partials/header')%>
+  <div class="bannerContainer">
+    <div class="bg-image"></div>
+    <div class="bg-text d-flex flex-column align-items-center container">
+        <h1>Planeta Full Stack</h1>
+        <p id="demo"></p>
+        <a href="/contact" class="button">CONTACTANOS</a>
+    </div>
+  </div>
+  <section class="container-fluid bg-gradient">
+    <div class="row">
+      <div class="col-4">
+        <img src="/img/WebsiteCreator.png" width="100%" alt="">
+      </div>
+      <div class="col-8">
+        <h2>Especialistas en desarrollo web</h2>
+        <hr>
+        <p>Somos un equipo diverso con expertos en desarrollo web, diseño web, experiencia y usabilidad de usuario para grandes y pequeñas empresas. Aplicamos nuestro conocimiento digital a los objetivos y presupuesto para crear una propuesta de valor que le ayudará a hacer crecer su negocio. Ya sea que esté buscando iniciar un sitio web desde cero o desea comercializar su sitio web existente (¡o ambos!), podemos ayudarle.</p>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid pad">
+    <h1>Nuestros servicios</h1>
+    <div class="container">
+      <div class="row">
+        <div class="card col d-flex animate">
+          <div><i class="fas fa-meteor fa-3x"></i></div>
+          <div>
+            <h3>Diseño Web </h3>
+            <p>Somos tu equipo de desarrollo Frontend para llevar a cabo aquellos proyectos cuya complejidad en el diseño requiere una ayuda extra. </p>
+            <p>El éxito de una aplicación web en particular depende principalmente de cómo se diseñó la parte frontal . Si el front-end será poco atractivo, poco intuitivo y complicado, los clientes potenciales se desanimarán rápidamente y ya no querrán volver al sitio o la aplicación. </p>
+          </div>          
+        </div>
+        <div class="card col d-flex animate">
+          <div><i class="fas fa-robot fa-3x"></i></div>
+          <div>
+            <h3>Desarrollo Web </h3>
+            <p>Ofrecemos plataformas de desarrollo web a la medida, realizadas con los lenguajes de programación más potentes del mercado. </p>
+            <p>Desde la creación de prototipos, hasta el lanzamiento de una página web empresarial, nos encargaremos de todo el proces de desarrollo web para su negocio.
+              Desarrollamos E-COMMERCE, landing pages, sitios de membresías, entre otros.</p>
+          </div>             
+        </div>
+      </div>
+      <div class="row">
+        <div class="card col d-flex animate">
+          <div><i class="fas fa-user-astronaut fa-3x"></i></div>
+          <div>
+            <h3>Branding </h3>
+            <p>La marca consiste en comprender los atributos que sus audiencia objetivo aprecia en un negocio y combinar los valores y la personalidad de sus negocio con estos atributos. La idea es proyectar de qué se trata su negocio, de una manera que se conecte con su público objetivo.</p>
+          </div>          
+        </div>
+        <div class="card col d-flex animate">
+          <div><i class="fas fa-rocket fa-3x"></i></div>
+          <div>
+            <h3>Marketing Digital </h3>
+            <p>Construimos experiencias humanizadas y significativas que emergen de una conexión sólida entre la marca, el negocio y el propósito.<br><br>Esto dará como resultado una marca sólida y duradera en el tiempo, reflejada en un manual de elementos básicos y una guía de estilo de comunicación de dicha identidad que actuarán como las bases inamovibles de la nueva identidad visual de la empresa.</p>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+        <%- include('./partials/footer')%>
+      <div class="attribution ">
+        <a href="https://storyset.com/people">Illustration by Freepik Storyset</a>
+      </div>
+      <script src="/js/typingEffects.js" type="text/javascript"> </script>
+      <script src="/js/animate.js" type="text/javascript"> </script>
+    </body>
+    </html>

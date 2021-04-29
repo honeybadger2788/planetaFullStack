@@ -1,0 +1,22 @@
+/* CSS HEX */
+
+--azure-x-11-web-color: #ebfffbff;
+--cultured: #f3f4f7ff;
+--magnolia: #f2effbff;
+
+--light-cyan: #d6fff6ff;
+--shadow-blue: #7d8ba4ff;
+--russian-violet: #231651ff;
+
+--white: #ffffffff;
+--alice-blue: #e7e9eeff;
+--lavender-web: #e4dff6ff;
+
+--msu-green: #003d31ff;
+--independence: #434b60ff;
+--xiketic: #0e0821ff;
+
+--tropical-rain-forest: #007a60ff;
+--gunmetal: #2a2f3cff;
+--xiketic: #070410ff;
+
