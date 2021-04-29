@@ -33,6 +33,10 @@ app.get('/contact', (req,res)=>{
     res.render('./contact')
 });
 
+app.get('/thanks', (req,res)=>{
+    res.render('./thanks')
+});
+
 app.use((req,res)=>{
     res.status(404).render('404Error');
 });
