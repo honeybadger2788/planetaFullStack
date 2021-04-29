@@ -44,6 +44,7 @@ body {
 p {
   font-size: 1rem;
   padding: 20px;
+  line-height: 2rem;
 }
 
 h1 {
@@ -52,7 +53,8 @@ h1 {
 
 h2 {
   font-size: 2.44rem;
-  text-align: left !important;
+  text-align: left;
+  margin-top: 5vh;
 }
 
 h3 {
@@ -61,8 +63,7 @@ h3 {
 
 h1, h2, h3 {
   font-family: 'Source Sans Pro';
-  text-align: center;
-  margin: 5vh 0;
+  margin-bottom: 5vh;
 }
 
 hr {
@@ -89,10 +90,10 @@ li {
   padding: 100px 10vw;
 }
 
-.bg-gradient-inv {
+.bg-gradient-footer {
   background: rgb(7,4,16);
   background: linear-gradient(45deg, rgba(7,4,16,1) 0%, rgba(14,8,33,1) 50%, rgba(35,22,81,1) 100%);
-  padding: 100px 10vw;
+  padding: 40px 10vw 20px 10vw;
 }
 
 .pad {
@@ -114,10 +115,6 @@ li {
 .button:hover {
   background-color: var(--light-cyan);
   color: var(--independence);
-  margin: 40px 0;
-  padding: 20px 40px;
-  text-decoration: none;
-  border-radius: 10px;
 }
 
 .container-fluid {
@@ -133,6 +130,11 @@ li {
 .header {
   overflow: hidden;
   padding: 0 10%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  background-color: var(--xiketic2);
 }
 
 .header a {
@@ -204,11 +206,6 @@ li {
   text-align: center;
 }
 
-.bg-text h1 {
-  margin: 0 !important;
-  margin-bottom: 5vh !important;
-}
-
 .card {
   padding: 40px;
   margin: 20px;
@@ -240,6 +237,26 @@ li {
   100% {
     transform: translateY(0);
   }
+}
+
+#more {
+  display: none;
+}
+
+#myBtn {
+  width: fit-content;
+  background-color: var(--tropical-rain-forest);
+  color: var(--white);
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+#myBtn:hover{
+  background-color: var(--light-cyan);
+  color: var(--independence);
 }
 
 .fas {
