@@ -4,7 +4,7 @@ var speed = 50;
 
 function typeWriter() {
   if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
+    document.getElementById("demo").innerHTML += txt[i];
     i++;
     setTimeout(typeWriter, speed);
   }
