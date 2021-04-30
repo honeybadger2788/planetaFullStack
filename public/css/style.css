@@ -239,11 +239,11 @@ li {
   }
 }
 
-#more {
+.more {
   display: none;
 }
 
-#myBtn {
+.myBtn {
   width: fit-content;
   background-color: var(--tropical-rain-forest);
   color: var(--white);
@@ -328,6 +328,10 @@ label {
 =============================*/
 
 @media screen and (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+
   .header a {
     float: none;
     display: block;
