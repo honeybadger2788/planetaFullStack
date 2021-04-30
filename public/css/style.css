@@ -201,7 +201,6 @@ li {
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
-  height: 40%;
   padding: 20px;
   text-align: center;
 }
@@ -254,7 +253,7 @@ li {
   border: none;
 }
 
-#myBtn:hover{
+.myBtn:hover{
   background-color: var(--light-cyan);
   color: var(--independence);
 }
@@ -328,6 +327,10 @@ label {
 =============================*/
 
 @media screen and (max-width: 768px) {
+  h1,h2 {
+    text-align: center;
+  }
+
   .header {
     position: relative;
   }
@@ -342,6 +345,13 @@ label {
     top: 0;
   }
 
+  .pad {
+    padding: 0 5px;
+  }
+
+  .bg-gradient-footer {
+    padding: 0 5px;
+  }
 }
 
 
